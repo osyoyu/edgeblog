@@ -13,3 +13,5 @@ opt-level = 's'
 
 [dependencies]
 http_guest = { path = "../terrarium-rust-guest" }
+
+comrak = "0.6"
