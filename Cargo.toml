@@ -1,0 +1,15 @@
+[package]
+name = "edgeblog-crate"
+version = "0.1.0"
+authors = ["osyoyu <osyoyu@osyoyu.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+opt-level = 's'
+
+[dependencies]
+http_guest = { path = "../terrarium-rust-guest" }
