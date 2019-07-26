@@ -15,3 +15,4 @@ opt-level = 's'
 http_guest = { path = "../terrarium-rust-guest" }
 
 comrak = "0.6"
+failure = "0.1.5"
