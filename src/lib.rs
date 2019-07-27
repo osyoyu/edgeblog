@@ -1,4 +1,5 @@
 mod server;
+mod actions;
 mod s3_request;
 
 use http_guest::guest_app;
